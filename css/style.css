@@ -1,0 +1,11 @@
+body {
+    background-image: url("../assets/images/fondo_pantalla.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encabezado {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 350px;
+}
