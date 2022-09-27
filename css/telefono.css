@@ -1,0 +1,52 @@
+body {
+    background-image: url("../assets/images/fondo_tele.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+.nav {
+    background-color: rgba(153, 142, 142, 0.432);
+    height: 60px;
+    width: 100%;
+}
+
+.menu_list {
+    display: inline-block;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.list_link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.main {
+    width: 1250px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: auto;
+    display: inline-block;
+}
+
+.section {
+    display: inline-block;
+    width: 45%;
+    margin-left: 20px;
+}
+
+.section_header {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.acticle {
+    padding-top: 20px;
+    display: inline-block;
+}
