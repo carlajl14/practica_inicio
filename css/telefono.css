@@ -14,12 +14,17 @@ body {
     background-color: rgba(153, 142, 142, 0.432);
     height: 60px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    justify-content: space-evenly;
 }
 
 .menu_list {
     display: inline-block;
-    margin-top: 20px;
-    justify-content: space-evenly;
+    margin-top: 5px;
 }
 
 .list_link {
@@ -32,12 +37,12 @@ body {
     width: 1250px;
     background-color: rgba(0, 0, 0, 0.2);
     margin: auto;
-    display: inline-block;
+    display: flex;
 }
 
 .section {
     display: inline-block;
-    width: 45%;
+    width: 60%;
     margin-left: 20px;
 }
 
@@ -48,5 +53,4 @@ body {
 
 .acticle {
     padding-top: 20px;
-    display: inline-block;
 }
